@@ -33,15 +33,13 @@ export function Tile({ x = 2, y = 2, colour = 'cyan', title = "", src, alt, hide
         }
     };
 
-
-
     const animation_classes = isTapped ? "-translate-y-[4%] shadow-2xl brightness-125 scale-[1.02]" : "hover:-translate-y-[2%] hover:shadow-xl";
     const base_class = `${hideOnMobile ? "hidden md:flex" : "flex"} ${colSpans[x]} ${rowSpans[y]} rounded-xl items-center justify-center bg-black hover:cursor-pointer bg-linear-to-b from-white/18 via-black ${colour_setting} ${animation_classes} transition-all duration-300 ease-in-out md:rounded-2xl`;
 
     return (
         <div className={base_class} title={title} onClick={handleInteraction} >
             <div className="flex-col w-full h-full text-white/90 flex items-center justify-center gap-2 overflow-hidden pointer-events-none">
-                <img className={img_class} src={src} alt={alt} />
+                <img className={img_class} src={import.meta.env.BASE_URL + src} alt={alt} />
                 <h2 className="hidden text-sm md:text-lg 2xl:flex">
                     {title}
                 </h2>

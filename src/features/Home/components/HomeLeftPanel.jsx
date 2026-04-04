@@ -37,7 +37,7 @@ export default function HomeLeftPanel() {
       </p>
       
       <div className='w-full flex mt-10 gap-3 justify-center items-center md:items-start md:justify-start md:mt-25'>
-        <a href="/brand/myCV/Matias Mercado - CV.pdf" download>
+        <a href={`${import.meta.env.BASE_URL}/brand/myCV/Matias Mercado - CV.pdf`} download>
           <MainButton name={t('buttons.downloadcv')}  />
         </a>
         <MainButton name={t('buttons.contactme')}  onClick={() => scrollToSection('contactsocials')}  />

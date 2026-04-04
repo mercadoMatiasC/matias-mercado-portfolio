@@ -8,19 +8,19 @@ export default function HomeRightPanel() {
         <svg viewBox="0 0 100 100" className="col-start-1 row-start-1 w-full h-full">
           <polygon points="7,7 55,95 90,18" stroke="#9E2063" fill="none" strokeWidth="0.8px"/>
         </svg>
-        <img src="/brand/svgs/blob.svg" className="col-start-1 row-start-1 z-10 w-[80%] drop-shadow-2xl" />
-        <img src="/brand/silhouette.png" className="col-start-1 row-start-1 z-11 w-[55%] -translate-y-[20%] drop-shadow-2xl" />
+        <img src={`${import.meta.env.BASE_URL}/brand/svgs/blob.svg`} className="col-start-1 row-start-1 z-10 w-[80%] drop-shadow-2xl" />
+        <img src={`${import.meta.env.BASE_URL}/brand/silhouette.png`} className="col-start-1 row-start-1 z-11 w-[55%] -translate-y-[20%] drop-shadow-2xl" />
       </div>
 
       <div className="flex w-full justify-center gap-6 md:translate-y-40 md:w-[10%] md:flex-col">
         <a href="https://www.linkedin.com/in/mercadomatiasc" target="_blank">
-          <img src="/brand/svgs/linkedin.svg" alt="LinkedIn" className="opacity-60 w-10 md:w-12"/>
+          <img src={`${import.meta.env.BASE_URL}/brand/svgs/linkedin.svg`} alt="LinkedIn" className="opacity-60 w-10 md:w-12"/>
         </a>
         <a href="https://github.com/mercadoMatiasC" target="_blank">
-          <img src="/brand/svgs/github.svg"   alt="GitHub"   className="opacity-60 w-10 md:w-12"/>
+          <img src={`${import.meta.env.BASE_URL}/brand/svgs/github.svg`}   alt="GitHub"   className="opacity-60 w-10 md:w-12"/>
         </a>
         <a href="mailto:carlosmercado--@hotmail.com" target="_blank">
-          <img src="/brand/svgs/letter.svg"   alt="Letter"   className="opacity-60 w-10 md:w-12"/>
+          <img src={`${import.meta.env.BASE_URL}/brand/svgs/letter.svg`}   alt="Letter"   className="opacity-60 w-10 md:w-12"/>
         </a>
       </div>
     </section>

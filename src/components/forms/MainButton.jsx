@@ -4,7 +4,7 @@ export function MainButton({ name = "Button", onClick }){
         gap-2 hover:cursor-pointer hover:shadow-xl hover:shadow-[#FA45A3]/40 transition-all duration-300 ease-in-out
         focus:outline-none focus:ring-1 focus:ring-[#FA45A3] focus:ring-opacity-75 text-[13px] text-center items-center xs:text-2xl sm:text-lg md:text-[18px]" onClick={onClick}>
             { name }
-            <img src="/brand/svgs/rchevron.svg" alt="chevron" width="20"></img>
+            <img src={`${import.meta.env.BASE_URL}/brand/svgs/rchevron.svg`} alt="chevron" width="20"></img>
         </button>
     );
 }
