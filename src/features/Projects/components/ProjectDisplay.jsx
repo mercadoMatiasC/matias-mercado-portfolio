@@ -6,7 +6,7 @@ export function ProjectDisplay({ project }){
 
     return (
         <a href={project.github_link} target="_blank" className="w-full">
-            <div id="projectDisplay" className="group flex flex-col w-full bg-cover h-[25vh] bg-top-right lg:flex-row lg:h-[30vh]" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}/brand/projects/${project.id+'/'+project.bg}')` }}>
+            <div id="projectDisplay" className="group flex flex-col w-full bg-cover h-[28vh] bg-top-right lg:flex-row lg:h-[30vh]" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}/brand/projects/${project.id+'/'+project.bg}')` }}>
                 <main className="w-full h-2/3 flex flex-col text-lg text-white justify-between p-6 space-y-2 lg:p-7 lg:w-1/2 lg:h-full lg:space-y-0">
                     <h2 className="text-lg italic font-bold xl:text-[2vh] 2xl:text-2xl">{project.title}</h2>
                     <h3 className="text-[2vh] xl:text-[2vh]">
