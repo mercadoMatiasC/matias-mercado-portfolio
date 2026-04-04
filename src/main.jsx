@@ -8,7 +8,7 @@ import { NavigationProvider } from './contexts/NavigationContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/matias-mercado-portfolio/">
       <NavigationProvider>
         <App />
       </NavigationProvider>
