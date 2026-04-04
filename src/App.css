@@ -1,0 +1,86 @@
+@import 'tailwindcss';
+
+*{
+    font-family: 'Bahnschrift';
+}
+
+html {
+  background-color: black;
+  scroll-behavior: smooth !important;
+  height: auto;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('/brand/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#aboutMeContainer{
+  background-image: url('/brand/bg1_aboutme.jpg');
+}
+
+#leftNetworkContainer{
+  background-image: url('/brand/contactbg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.socialLinks{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-lang-change {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.blink-text {
+  animation: sharp-blink-animation 1.5s steps(1, start) infinite;
+}
+
+/* Define the animation keyframes */
+@keyframes sharp-blink-animation {
+  50% {
+    opacity: 0.1;
+  }
+}
+
+/* -- EASTER EGG -- */
+#mario_sprite {
+  width: 16px;
+  height: 16px;
+  background: url('/easter_egg/assets/sprites/mario_walking.png');
+  animation: play-sprite 350ms steps(3) infinite;
+}
+
+@keyframes play-sprite {
+  from { background-position: 0px; }
+  to { background-position: -48px; }
+}
+
+.sprite {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+}
+
+.fixedsys-text {
+  font-family: 'Fixedsys', monospace;
+  font-size: 18px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+}
+

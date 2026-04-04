@@ -1,0 +1,58 @@
+{
+    "header" :{
+        "home": "Inicio",
+        "aboutme": "Sobre Mí",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contactsocials": "Contacto y Redes"
+    },
+
+    "footer" :{
+        "copyright": "Todos los derechos reservados",
+        "backtotop": "Volver al inicio"
+    },
+
+    "buttons" :{
+        "downloadcv": "Descargar CV",
+        "contactme": "Contáctame"
+    },
+
+    "home" :{
+        "introduction": "Hola, soy ",
+        "position": "Desarrollador Full-Stack",
+        "description": "Dedicado a construir aplicaciones web visualmente inmersivas y de alto rendimiento con <1>React.js</1> y <2>Laravel</2>"
+    },
+
+    "aboutme" :{
+        "title": "Sobre Mí",
+        "whoami": "Soy <1>estudiante de Ingeniería Informática</1> y <1>desarrollador de software</1> enfocado en crear aplicaciones web estructuradas y eficientes. Disfruto de la lógica de un backend sólido en Laravel tanto como un frontend fluido en React.js.",
+        "about": "Busco aportar mi atención al detalle e interés por el código limpio a un equipo profesional donde pueda seguir creciendo.",
+
+        "location": "Ubicación",
+        "languages": "Idiomas",
+        "spanish": "Español",
+        "english": "Inglés",
+        "native": "Nativo",
+        "advanced": "Avanzado",
+    
+        "focus": "Enfoque actual: Desarrollo web Full-Stack"
+    },
+
+    "skills" :{
+        "title": "Habilidades"
+    },
+
+    "projects": {
+        "title": "Proyectos",
+        "description": "Descripción",
+        "status": "Estado"
+    },
+
+    "contactsocials": {
+        "title": "Contacto y Redes",
+        "letstalk": "Contáctame",
+        "availability": "Abierto a nuevos proyectos",
+        "mylinks": "Mis enlaces",
+        "email": "Correo electrónico"
+    }
+}

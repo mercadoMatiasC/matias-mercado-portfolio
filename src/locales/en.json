@@ -1,0 +1,61 @@
+{
+    "header" :{
+        "home": "Home",
+        "aboutme": "About Me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contactsocials": "Contact & Socials"
+    },
+
+    "footer" :{
+        "copyright": "All rights reserved",
+        "backtotop": "Back to Top"
+    },
+
+    "buttons" :{
+        "downloadcv": "Download CV",
+        "contactme": "Contact Me"
+    },
+
+    "home" :{
+        "introduction": "Hi, I'm ",
+        "position": "Full-Stack Developer",
+        "description": "Specializing in building high-performance, visually immersive web applications with <1>React.js</1> & <2>Laravel</2>"
+    },
+
+    "aboutme" :{
+        "title": "About Me",
+        "whoami": "I’m a <1>Computer Science Engineering student</1> and a <1>Software Developer</1> focussed on creating structured, efficient web applications. I enjoy the logic of a solid backend in Laravel just as much as crafting a smooth frontend in React.",
+        "about": "I’m looking to bring my attention to detail and interest in clean code to a professional team where I can continue to grow.",
+    
+        "location": "Location",
+        "languages": "Languages",
+        "spanish": "Spanish",
+        "english": "English",
+        "native": "Native",
+        "advanced": "Advanced",
+
+        "focus": "Current focus: Full-Stack Web Development"
+    },
+
+    "skills" :{
+        "title": "Skills"
+    },
+
+    "projects": {
+        "title": "Projects",
+        "description": "Description",
+        "status": "Status"
+    },
+
+    "contactsocials": {
+        "title": "Contact & Socials",
+        "letstalk": "Let's Talk",
+        "availability": "Available for new projects",
+        "mylinks": "My Links",
+        "email": "E-mail"
+    }
+
+
+
+}
