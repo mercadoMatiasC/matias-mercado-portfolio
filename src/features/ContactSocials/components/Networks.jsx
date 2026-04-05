@@ -25,19 +25,19 @@ export function Networks(){
                 <ul className="flex flex-col justify-center items-center gap-3 lg:gap-5">
                     <a href="https://www.linkedin.com/in/mercadomatiasc" target="_blank" className="socialLinks">
                         <StylizedLi>
-                            <img src={`${import.meta.env.BASE_URL}/brand/svgs/linkedin.svg`} alt="LinkedIn" width="35" />
+                            <img loading="lazy" src={`${import.meta.env.BASE_URL}/brand/svgs/linkedin.svg`} alt="LinkedIn" width="35" />
                             <p>LinkedIn</p>
                         </StylizedLi>
                     </a>
                     <a href="https://github.com/mercadoMatiasC" target="_blank" className="socialLinks">
                         <StylizedLi>
-                            <img src={`${import.meta.env.BASE_URL}/brand/svgs/github.svg`} alt="GitHub" width="35" />
+                            <img loading="lazy" src={`${import.meta.env.BASE_URL}/brand/svgs/github.svg`} alt="GitHub" width="35" />
                             GitHub
                         </StylizedLi>
                     </a>
                     <a href="mailto:carlosmercado--@hotmail.com" target="_blank" className="socialLinks">
                         <StylizedLi>
-                            <img src={`${import.meta.env.BASE_URL}/brand/svgs/letter.svg`} alt="E-mail" width="35" />
+                            <img loading="lazy" src={`${import.meta.env.BASE_URL}/brand/svgs/letter.svg`} alt="E-mail" width="35" />
                             {t('contactsocials.email')}
                         </StylizedLi>
                     </a>

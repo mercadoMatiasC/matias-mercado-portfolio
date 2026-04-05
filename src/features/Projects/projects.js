@@ -2,8 +2,8 @@ export const projects = [
     {
         id: "alphagaming",
         title: "Alpha Gaming Store",
-        bg: "alphagaming_bg.jpg",
-        screens: "alphagaming_screens.png",
+        bg: "alphagaming_bg.webp",
+        screens: "alphagaming_screens.webp",
         stack: ["Laravel", "Blade", "MySQL", "Tailwind"],
         github_link: "https://github.com/mercadoMatiasC/alpha-gaming-store",
 
@@ -24,8 +24,8 @@ export const projects = [
     {
         id: "dobleamarilla",
         title: "Doble Amarilla Scores",
-        bg: "dobleamarilla_bg.jpg",
-        screens: "dobleamarilla_screens.png",
+        bg: "dobleamarilla_bg.webp",
+        screens: "dobleamarilla_screens.webp",
         stack: ["Laravel", "React", "MySQL", "Tailwind"],
         github_link: "https://github.com/mercadoMatiasC/doble-amarilla-scores",
 

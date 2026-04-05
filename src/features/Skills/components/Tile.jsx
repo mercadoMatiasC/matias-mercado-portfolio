@@ -39,7 +39,7 @@ export function Tile({ x = 2, y = 2, colour = 'cyan', title = "", src, alt, hide
     return (
         <div className={base_class} title={title} onClick={handleInteraction} >
             <div className="flex-col w-full h-full text-white/90 flex items-center justify-center gap-2 overflow-hidden pointer-events-none">
-                <img className={img_class} src={import.meta.env.BASE_URL + src} alt={alt} />
+                <img loading="lazy" className={img_class} src={import.meta.env.BASE_URL + src} alt={alt} />
                 <h2 className="hidden text-sm md:text-lg 2xl:flex">
                     {title}
                 </h2>

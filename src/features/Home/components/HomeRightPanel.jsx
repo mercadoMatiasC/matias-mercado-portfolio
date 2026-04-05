@@ -9,7 +9,7 @@ export default function HomeRightPanel() {
           <polygon points="7,7 55,95 90,18" stroke="#9E2063" fill="none" strokeWidth="0.8px"/>
         </svg>
         <img src={`${import.meta.env.BASE_URL}/brand/svgs/blob.svg`} className="col-start-1 row-start-1 z-10 w-[80%] drop-shadow-2xl" />
-        <img src={`${import.meta.env.BASE_URL}/brand/silhouette.png`} className="col-start-1 row-start-1 z-11 w-[55%] -translate-y-[20%] drop-shadow-2xl" />
+        <img src={`${import.meta.env.BASE_URL}/brand/silhouette.webp`} fetchPriority="high" className="col-start-1 row-start-1 z-11 w-[55%] -translate-y-[20%] drop-shadow-2xl" />
       </div>
 
       <div className="flex w-full justify-center gap-6 md:translate-y-40 md:w-[10%] md:flex-col">
