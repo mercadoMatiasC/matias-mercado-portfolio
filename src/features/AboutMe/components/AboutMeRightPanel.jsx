@@ -8,7 +8,7 @@ export default function AboutMeRightPanel() {
     <div key={i18n.language} className="animate-lang-change flex flex-col justify-center w-full text-white p-4 pt-0 font-light md:text-white md:text-[2.3vh] bg-black/50 space-y-2 xl:w-2/5 xl:min-h-65 xl:border-l xl:border-white/30 xl:p-6">
       <div className="flex flex-row w-full items-center gap-3">
         <p>{t('aboutme.location')}: <span className="font-bold">Mar del Plata</span>, Argentina</p>  
-        <img loading="lazy" src={`${import.meta.env.BASE_URL}/brand/svgs/argentina_flag.svg`} className="w-[10%]" />
+        <img loading="lazy" src={`${import.meta.env.BASE_URL}/brand/svgs/argentina_flag.svg`} alt="Argentina" className="w-[10%]" />
       </div>
         
       <p className="text-start">{t('aboutme.languages')}:</p>
