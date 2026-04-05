@@ -9,12 +9,12 @@ export const projects = [
 
         //TRANSLATED
         headline: {
-            en: "E-commerce focussed in computers hardware products.",
+            en: "E-commerce focused in computers hardware products.",
             es: "E-commerce enfocado en productos de hardware de computadoras."
         },
         description: {
-            en: "Based on a monolitic architecture, includes a complete system for managing Users, Products, Orders and Payments.",
-            es: "Basado en una arquitectura monolítica, posee un sistema completo de usuarios, productos, ordenes y pagos."
+            en: "Based on a monolithic architecture, includes a complete system for managing users, products, orders and payments.",
+            es: "Basado en una arquitectura monolítica, posee un sistema completo de usuarios, productos, órdenes y pagos."
         },
         status: {
             en: "Beta (in active development)",
@@ -32,11 +32,11 @@ export const projects = [
         //TRANSLATED
         headline: {
             en: "Internal web application for managing football scores.",
-            es: "Aplicación interno de marcadores de partidos de fútbol."
+            es: "Aplicación interna de marcadores de partidos de fútbol."
         },
         description: {
-            en: "Based on a decoupled architecture with its REST API + SPA Frontend, includes a complete system for managing Matches, Tournaments and Teams",
-            es: "Basado en una arquitectura desacoplada REST API + SPA Frontend, posee un sistema completo de partidos, torneos y equipos"
+            en: "Based on a decoupled architecture with its REST API + SPA Frontend, includes a complete system for managing matches, tournaments and teams.",
+            es: "Basado en una arquitectura desacoplada REST API + SPA Frontend, posee un sistema completo de partidos, torneos y equipos."
         },
         status: {
             en: "Beta (in active development)",
