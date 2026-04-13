@@ -1,7 +1,7 @@
 import { Tile } from "./Tile"
 
 export function SkillsGrid({ counter, setCounter }) {
-    const base_class = "grid auto-rows-[7vh] w-full gap-3 grid-cols-6 md:auto-rows-[130px] md:w-full md:grid-cols-10";
+    const base_class = "grid auto-rows-[7vh] w-full gap-3 grid-cols-6 md:auto-rows-[12vh] md:w-full md:grid-cols-10 2xl:auto-rows-[13vh]";
 
     return (
         <main className="flex flex-col w-full justify-center items-center py-2 2xl:py-8">

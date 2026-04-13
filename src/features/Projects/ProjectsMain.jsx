@@ -9,7 +9,7 @@ export default function ProjectsMain() {
 
   return (
     <div className="flex flex-col relative items-center justify-between w-full h-screen">
-      <div className="flex flex-col w-[87%] space-y-5 h-full justify-center xl:mt-[6vh]">
+      <div className="flex flex-col w-[87%] mt-10 space-y-5 h-full justify-center xl:mt-15">
         <h1 className="text-3xl font-bold text-white/80">
           {t('projects.title')} <span className="blink-text">_</span>
         </h1>
